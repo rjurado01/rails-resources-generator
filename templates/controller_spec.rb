@@ -29,7 +29,7 @@ describe YYYController do
   end
 
   describe "GET #show" do
-    let(:result){ JSON::parse(response.body)['alarm_filter'] }
+    let(:result){ JSON::parse(response.body)['xxx'] }
 
     before :all do
       @id = FactoryGirl.create(:xxx).id.to_s
